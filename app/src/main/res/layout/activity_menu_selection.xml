@@ -9,6 +9,7 @@
     android:paddingLeft="24dp"
     android:paddingRight="24dp"
     android:background="@drawable/ciatfarmer"
+    android:backgroundTintMode="src_in"
     tools:context="com.example.pondibrian.ukulimaiq.MenuSelection">
 
 
