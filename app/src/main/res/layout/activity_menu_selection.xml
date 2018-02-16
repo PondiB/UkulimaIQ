@@ -14,7 +14,7 @@
 
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnAgronomy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -23,7 +23,7 @@
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnClimate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -32,7 +32,7 @@
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnMarketPrice"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -41,7 +41,7 @@
         android:textSize="24sp" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/btnMap"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
