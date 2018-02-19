@@ -20,6 +20,10 @@
         <activity
             android:name=".MapActivity"
             android:label="@string/title_activity_map"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AgronomyActivity"
+            android:label="@string/title_activity_agronomy"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 

@@ -38,6 +38,7 @@ public class MenuSelection extends AppCompatActivity  implements View.OnClickLis
 
             case R.id.btnAgronomy:
                 // intent method call.
+                openAgronomyActivity();
                 break;
 
             case R.id.btnClimate:
@@ -50,7 +51,7 @@ public class MenuSelection extends AppCompatActivity  implements View.OnClickLis
                 break;
 
             case R.id.btnMap:
-                // intent code
+                // To open Map Activity
                 openMapActivity();// Call method to open Map activity page
                 break;
 
@@ -60,7 +61,13 @@ public class MenuSelection extends AppCompatActivity  implements View.OnClickLis
         }
 
     }
-//Method to for Community Map button
+
+    private void openAgronomyActivity() {
+        Intent intent = new Intent(this, AgronomyActivity.class);
+        startActivity(intent);
+    }
+
+    //Method to for Community Map button
     private void openMapActivity() {
         Intent intent = new Intent(this, MapActivity.class);
         startActivity(intent);
