@@ -9,9 +9,6 @@
     tools:context="com.example.pondibrian.ukulimaiq.MapActivity"
     tools:showIn="@layout/activity_map">
 
-    <android.support.v7.widget.AppCompatCheckedTextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Map for Babati to go HERE"/>
+
 
 </LinearLayout>
