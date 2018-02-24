@@ -6,13 +6,10 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
-import com.google.android.gms.maps.*;
-import com.google.android.gms.maps.model.*;
-import android.app.Activity;
-import android.os.Bundle;
 
 
-public class MapActivity extends AppCompatActivity implements onMapReadyCallback{
+
+public class MapActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
