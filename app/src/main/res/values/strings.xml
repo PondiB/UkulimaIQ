@@ -2,4 +2,5 @@
     <string name="app_name">Ukulima IQ</string>
     <string name="title_activity_map">Community Map</string>
     <string name="title_activity_agronomy">AgronomyActivity</string>
+    <string name="title_activity_maps">Map</string>
 </resources>

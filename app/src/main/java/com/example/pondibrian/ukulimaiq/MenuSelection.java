@@ -69,7 +69,7 @@ public class MenuSelection extends AppCompatActivity  implements View.OnClickLis
 
     //Method to for Community Map button
     private void openMapActivity() {
-        Intent intent = new Intent(this, MapActivity.class);
+        Intent intent = new Intent(this, MapsActivity.class);
         startActivity(intent);
     }
 }
