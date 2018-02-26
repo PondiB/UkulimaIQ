@@ -7,41 +7,42 @@
     android:paddingLeft="24dp"
     android:paddingRight="24dp"
     android:background="@color/background">
-    
+
+
     <android.support.v7.widget.AppCompatImageView
-        android:src="@drawable/logociat"
-        android:layout_width="match_parent"
-        android:layout_height="72dp"
         android:id="@+id/ImageView"
-        android:layout_gravity="center_horizontal"/>
+        android:layout_width="136dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/usaid1" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:text="Enter Phone Number:"
-        android:textSize="18sp" />
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/ImageView2"
+        android:layout_width="138dp"
+        android:layout_height="176dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/africarising1" />
 
-    <EditText
-        android:id="@+id/phoneNumber"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="36dp"
-        android:ems="10"
-        android:hint="255 7XX XXX XXX"
-        android:inputType="phone"
-        android:textColor="@color/black"
-        />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Log In"
         android:layout_marginTop="36dp"
-        android:background="@color/grey" />
+        android:layout_marginBottom="36dp"
+        android:background="@color/grey"
+        android:text="ENTER" />
+
+    <android.support.v7.widget.AppCompatImageView
+        android:id="@+id/ImageView3"
+        android:layout_width="95dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="6dp"
+        android:src="@drawable/logociat" />
 
 
 </LinearLayout>
