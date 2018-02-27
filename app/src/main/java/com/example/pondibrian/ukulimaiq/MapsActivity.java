@@ -39,7 +39,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Nairobi and move the camera
-        LatLng nairobi = new LatLng(1.2, 36.8);
+        LatLng nairobi = new LatLng(-4.0384, 35.8280);
         mMap.addMarker(new MarkerOptions().position(nairobi).title("Marker in Nairobi"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(nairobi));
     }
