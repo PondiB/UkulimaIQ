@@ -43,6 +43,7 @@ public class MenuSelection extends AppCompatActivity  implements View.OnClickLis
 
             case R.id.btnClimate:
                 // intent method call
+                openClimateActivity();
                 break;
 
             case R.id.btnMarketPrice:
@@ -60,6 +61,11 @@ public class MenuSelection extends AppCompatActivity  implements View.OnClickLis
 
         }
 
+    }
+
+    private void openClimateActivity() {
+        Intent intent = new Intent(this, ClimateActivity.class);
+        startActivity(intent);
     }
 
     private void openAgronomyActivity() {
