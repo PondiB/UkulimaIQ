@@ -25,4 +25,8 @@ public class Common {
         date.setTime((long)unixTimeStamp*10000);
         return dateFormat.format(date);
     }
+
+    public  static String getImage(String icon){
+        return String.format("http://openweathermap.org/img/w/%s.png", icon);
+    }
 }
