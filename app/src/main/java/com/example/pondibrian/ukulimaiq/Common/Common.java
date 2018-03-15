@@ -3,6 +3,8 @@ package com.example.pondibrian.ukulimaiq.Common;
 import android.support.annotation.NonNull;
 
 import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 /**
  * Created by Pondi Brian on 3/12/2018.
@@ -28,5 +30,12 @@ public class Common {
 
     public  static String getImage(String icon){
         return String.format("http://openweathermap.org/img/w/%s.png", icon);
+    }
+
+    public static getDateNow(){
+        DateFormat dateFormat = new SimpleDateFormat("dd MMMM yyyy HH:mm");
+        Date date = new Date();
+        return dateFormat.format(date);
+
     }
 }
