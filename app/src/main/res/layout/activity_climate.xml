@@ -11,4 +11,24 @@
         android:layout_height="wrap_content"
         android:text="Climate Wizard"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/temperatureTextView"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="PB"
+        android:textSize="25dp"
+        android:textColor="#fcffffff"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/placeTextView"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="PB"
+        android:textSize="25dp"
+        android:textColor="#fcffffff"
+        />
+
 </android.support.constraint.ConstraintLayout>

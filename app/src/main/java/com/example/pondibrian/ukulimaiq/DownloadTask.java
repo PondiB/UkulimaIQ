@@ -69,9 +69,9 @@ public class DownloadTask extends AsyncTask<String, Void, String>{
             double tempInt =Double.parseDouble(weatherDatas.getString("temp"));
                 int tempIn = (int)(tempInt*1.8-459.67);//From Kelvin to Farhenheight
 
-            //ClimateActivity.temperatureText.setText(String.ValueOf(tempIn)+ "F");
+            ClimateActivity.temperatureTextView.setText(String.valueOf(tempIn)+ "F");
 
-            //ClimateActivity.nameText.setText(jsonObject.getString("name"));
+            ClimateActivity.placeTextView.setText(jsonObject.getString("name"));
             //JSONArray jsonArray = new JSONArray(weatherInfo);
 
             //for(int i=0, i<JSONArray.length(); i++){
