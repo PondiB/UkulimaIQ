@@ -19,7 +19,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="Agronomy"
+        android:text="Maelezo ya Ukulima"
+        android:textStyle="bold"
         android:textSize="24sp" />
 
     <Button
@@ -28,7 +29,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="Climate"
+        android:text="Hali ya Hewa"
+        android:textStyle="bold"
         android:textSize="24sp" />
 
     <Button
@@ -37,7 +39,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="Market Price"
+        android:text="Bei ya Soko"
+        android:textStyle="bold"
         android:textSize="24sp" />
 
     <Button
@@ -46,6 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="Community Map"
+        android:text="Ramani ya Jumuiya"
+        android:textStyle="bold"
         android:textSize="24sp" />
 </LinearLayout>

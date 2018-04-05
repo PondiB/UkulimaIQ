@@ -33,7 +33,9 @@
         android:layout_marginTop="36dp"
         android:layout_marginBottom="36dp"
         android:background="@color/grey"
-        android:text="ENTER" />
+        android:text="BONYEZA"
+        
+        android:textStyle="bold"/>
 
     <android.support.v7.widget.AppCompatImageView
         android:id="@+id/ImageView3"
