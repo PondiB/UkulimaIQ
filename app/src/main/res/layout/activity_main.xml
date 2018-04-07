@@ -34,7 +34,7 @@
         android:layout_marginBottom="36dp"
         android:background="@color/grey"
         android:text="BONYEZA"
-        
+        android:textSize="36dp"
         android:textStyle="bold"/>
 
     <android.support.v7.widget.AppCompatImageView
