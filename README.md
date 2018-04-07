@@ -14,5 +14,6 @@ Market Price: It will update farmers on the market price of their produce i.e. M
 Community Map: It will be an interactive map showing where the various crops dominate. 
 There could be limitation as the development of the application might take a longer duration.
 
-   
+![ukulima](https://user-images.githubusercontent.com/16879290/38459751-7c8cb5e8-3ab6-11e8-8bb7-6216514ad2b0.PNG)
+  
 Fig. 2.  Snapshot of already developed Android Application User Interface.
