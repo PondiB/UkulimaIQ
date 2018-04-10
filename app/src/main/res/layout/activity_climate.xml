@@ -23,16 +23,6 @@
         android:layout_marginBottom="15dp"
         />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/placeTextView"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="PB"
-        android:textSize="25dp"
-        android:textColor="#fcffffff"
-        android:layout_marginTop="15dp"
-        android:layout_marginBottom="25dp"
-        />
+
 
 </android.support.constraint.ConstraintLayout>
