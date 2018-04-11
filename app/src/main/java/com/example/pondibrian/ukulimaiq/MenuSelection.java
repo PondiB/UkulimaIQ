@@ -48,6 +48,7 @@ public class MenuSelection extends AppCompatActivity  implements View.OnClickLis
 
             case R.id.btnMarketPrice:
                 // intent Method call
+                openPriceActivity();
 
                 break;
 
@@ -73,6 +74,10 @@ public class MenuSelection extends AppCompatActivity  implements View.OnClickLis
         startActivity(intent);
     }
 
+    private void openPriceActivity() {
+        Intent intent = new Intent(this, PriceActivity.class);
+        startActivity(intent);
+    }
     //Method to for Community Map button
     private void openMapActivity() {
         Intent intent = new Intent(this, MapsActivity.class);
