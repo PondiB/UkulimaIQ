@@ -4,14 +4,14 @@
     <string name="title_activity_agronomy">AgronomyActivity</string>
     <string name="title_activity_maps">Map</string>
     <string-array name="list_items">
-        <item>Maize__845$</item>
-        <item>Paddy Rice__800$</item>
-        <item>Millet__500$</item>
-        <item>Sorghum __740$</item>
-        <item>Cassava__599$</item>
-        <item>Sweet Potato__950$</item>
-        <item>Beans__599$</item>
-        <item>Chicken Pea__950$</item>
+        <item>Maize(Mahindi)__845 Tshs</item>
+        <item>Paddy Rice(Mchele)__800 Tshs</item>
+        <item>Millet(Mtama)__500 Tshs</item>
+        <item>Sorghum(Wimbi) __740 Tshs</item>
+        <item>Cassava__599 Tshs</item>
+        <item>Sweet Potato__950 Tshs</item>
+        <item>Beans(Maharagwe)__599 Tshs</item>
+        <item>Chicken Pea__950 Tshs</item>
     </string-array>
 
 </resources>
