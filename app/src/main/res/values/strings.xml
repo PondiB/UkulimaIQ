@@ -4,14 +4,14 @@
     <string name="title_activity_agronomy">AgronomyActivity</string>
     <string name="title_activity_maps">Map</string>
     <string-array name="list_items">
-        <item>Maize(Mahindi)__845 Tshs</item>
-        <item>Paddy Rice(Mchele)__800 Tshs</item>
-        <item>Millet(Mtama)__500 Tshs</item>
-        <item>Sorghum(Wimbi) __740 Tshs</item>
-        <item>Cassava__599 Tshs</item>
-        <item>Sweet Potato__950 Tshs</item>
-        <item>Beans(Maharagwe)__599 Tshs</item>
-        <item>Chicken Pea__950 Tshs</item>
+        <item>Mahindi(Maize)__60,000 Tshs</item>
+        <item>Mchele(Paddy Rice)__180,000 Tshs</item>
+        <item>Wimbi(Millet)__70,000 Tshs</item>
+        <item>Mtama(Sorghum) __74,000 Tshs</item>
+        <item>Muhogo(Cassava)__50,000 Tshs</item>
+        <item>Viazi Vitamu(Sweet Potato)__85,000 Tshs</item>
+        <item>Maharagwe(Beans)__200,000 Tshs</item>
+        <item>Njegere(Chicken Pea)__250,000 Tshs</item>
     </string-array>
 
 </resources>
