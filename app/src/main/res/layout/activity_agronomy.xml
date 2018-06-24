@@ -8,7 +8,7 @@
     android:paddingTop="56dp"
     android:paddingLeft="24dp"
     android:paddingRight="24dp"
-    android:background="@drawable/ciatfarmer"
+    android:background="@drawable/organic"
     android:backgroundTintMode="src_in"
     tools:context="com.example.pondibrian.ukulimaiq.MenuSelection">
 
@@ -19,7 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="Land Preparation"
+        android:text="1. Mandaalizi"
         android:textStyle="bold"
         android:textSize="24sp" />
 
@@ -29,8 +29,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:backgroundTint="@color/colorPrimary"
-        android:text="Planting"
+        android:text="2. Upandaji"
         android:textStyle="bold"
         android:textSize="24sp" />
 
@@ -40,7 +39,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="Sowing"
+        android:text="3. Utunzaji"
         android:textStyle="bold"
         android:textSize="24sp" />
 
@@ -50,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginTop="8dp"
-        android:text="Harvesting"
+        android:text="4. Uvunaji"
         android:textStyle="bold"
         android:textSize="24sp" />
 </LinearLayout>
