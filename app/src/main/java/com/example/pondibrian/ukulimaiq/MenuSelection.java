@@ -11,7 +11,6 @@ public class   MenuSelection extends AppCompatActivity  implements View.OnClickL
     Button btnAgronomy;
     Button btnClimate;
     Button btnMarketPrice;
-    Button btnMap;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,8 +23,6 @@ public class   MenuSelection extends AppCompatActivity  implements View.OnClickL
         btnClimate.setOnClickListener(this);
         btnMarketPrice = findViewById(R.id.btnMarketPrice);
         btnMarketPrice.setOnClickListener(this);
-        btnMap = findViewById(R.id.btnMap);
-        btnMap.setOnClickListener(this);
 
 
     }
@@ -52,10 +49,6 @@ public class   MenuSelection extends AppCompatActivity  implements View.OnClickL
 
                 break;
 
-            case R.id.btnMap:
-                // To open Map Activity
-                openMapActivity();// Call method to open Map activity page
-                break;
 
             default:
                 break;
@@ -79,8 +72,5 @@ public class   MenuSelection extends AppCompatActivity  implements View.OnClickL
         startActivity(intent);
     }
     //Method to for Community Map button
-    private void openMapActivity() {
-        Intent intent = new Intent(this, MapsActivity.class);
-        startActivity(intent);
-    }
+
 }
