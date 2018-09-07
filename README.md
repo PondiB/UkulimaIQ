@@ -1,5 +1,5 @@
 # UkulimaIQ
-(Pending)Location-based android App for Tanzania farmers to notify them on Agronomy, Climate and Markets
+An android App for Tanzania farmers to notify them on Agronomy, Climate and Markets
 
 The Android application is under development and has been dubbed as “Ukulima IQ” which literary means Farming Intelligence Quotient. It is for farmers in Mwanza Region, It focuses on 4 key areas:
 1.	Agronomy (Swahili: “Maelezo ya Ukulima”)
