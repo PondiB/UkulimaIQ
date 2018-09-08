@@ -10,7 +10,7 @@
     android:paddingRight="24dp"
     android:background="@drawable/ciatfarmer"
     android:backgroundTintMode="src_in"
-    tools:context="com.example.pondibrian.ukulimaiq.MenuSelection">
+    tools:context="com.pondipb.pondibrian.ukulimaiq.MenuSelection">
 
 
     <Button

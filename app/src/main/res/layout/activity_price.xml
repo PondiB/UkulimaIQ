@@ -6,11 +6,11 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context="com.example.pondibrian.ukulimaiq.PriceActivity">
+    tools:context="com.pondipb.pondibrian.ukulimaiq.PriceActivity">
 
     <ListView
         android:id="@+id/listv"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></ListView>
+        android:layout_height="match_parent" />
 
 </LinearLayout>

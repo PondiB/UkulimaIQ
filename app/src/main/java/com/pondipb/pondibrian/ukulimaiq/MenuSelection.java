@@ -1,4 +1,4 @@
-package com.example.pondibrian.ukulimaiq;
+package com.pondipb.pondibrian.ukulimaiq;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

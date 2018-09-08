@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.example.pondibrian.ukulimaiq.AgronomyActivity"
+    tools:context="com.pondipb.pondibrian.ukulimaiq.AgronomyActivity"
     tools:showIn="@layout/activity_agronomy">
 
 </LinearLayout>

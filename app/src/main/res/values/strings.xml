@@ -2,7 +2,6 @@
     <string name="app_name">Ukulima IQ</string>
     <string name="title_activity_map">Community Map</string>
     <string name="title_activity_agronomy">AgronomyActivity</string>
-    <string name="title_activity_maps">Map</string>
     <string-array name="list_items">
         <item>Mahindi(Maize)__60,000 Tshs</item>
         <item>Mchele(Paddy Rice)__180,000 Tshs</item>

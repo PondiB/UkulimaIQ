@@ -1,4 +1,4 @@
-package com.example.pondibrian.ukulimaiq;
+package com.pondipb.pondibrian.ukulimaiq;
 
 import android.content.Context;
 import java.util.ArrayList;
