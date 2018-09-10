@@ -28,11 +28,11 @@ public class AgronomyActivity extends AppCompatActivity {
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         //Load video list
-        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/xS11EpasB58\" frameborder=\"0\"  allowfullscreen></iframe>"));
-        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/jdCjMbf0eXA\" frameborder=\"0\"  allowfullscreen></iframe>"));
-        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/LJFuhS_1nRg\" frameborder=\"0\"  allowfullscreen></iframe>"));
-        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/yHW7BHPKqps\" frameborder=\"0\"  allowfullscreen></iframe>"));
-        youtubeVideos.add(new YoutubeVideo("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/4Kny8uc9Xi0\" frameborder=\"0\"  allowfullscreen></iframe>"));
+        youtubeVideos.add(new YoutubeVideo());
+        youtubeVideos.add(new YoutubeVideo());
+        youtubeVideos.add(new YoutubeVideo());
+        youtubeVideos.add(new YoutubeVideo());
+        youtubeVideos.add(new YoutubeVideo());
 
         VideoAdapter videoAdapter = new VideoAdapter(youtubeVideos);
 
