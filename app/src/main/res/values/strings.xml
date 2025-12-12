@@ -1,16 +1,43 @@
 <resources>
     <string name="app_name">Ukulima IQ</string>
+    <string name="app_description">Farming Intelligence for Tanzanian Farmers</string>
+    
+    <!-- Activity Titles -->
     <string name="title_activity_map">Community Map</string>
-    <string name="title_activity_agronomy">AgronomyActivity</string>
+    <string name="title_activity_agronomy">Agronomy</string>
+    <string name="title_activity_climate">Weather &amp; Climate</string>
+    <string name="title_activity_price">Market Prices</string>
+    
+    <!-- Menu Items -->
+    <string name="menu_agronomy">Agronomy\n(Maelezo ya Ukulima)</string>
+    <string name="menu_climate">Climate\n(Hali ya Hewa)</string>
+    <string name="menu_market_price">Market Price\n(Bei ya Soko)</string>
+    <string name="menu_community_map">Community Map\n(Ramani ya Jumuiya)</string>
+    
+    <!-- Buttons -->
+    <string name="btn_get_started">Get Started</string>
+    <string name="btn_back">Back</string>
+    
+    <!-- Messages -->
+    <string name="loading">Loading…</string>
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_loading">Error loading content. Please try again.</string>
+    
+    <!-- Market Prices -->
     <string-array name="list_items">
-        <item>Mahindi(Maize)__60,000 Tshs</item>
-        <item>Mchele(Paddy Rice)__180,000 Tshs</item>
-        <item>Wimbi(Millet)__70,000 Tshs</item>
-        <item>Mtama(Sorghum) __74,000 Tshs</item>
-        <item>Muhogo(Cassava)__50,000 Tshs</item>
-        <item>Viazi Vitamu(S. Potato)__85,000 Tshs</item>
-        <item>Maharagwe(Beans)__200,000 Tshs</item>
-        <item>Njegere(Chicken Pea)__250,000 Tshs</item>
+        <item>Mahindi (Maize)__60,000 Tshs</item>
+        <item>Mchele (Paddy Rice)__180,000 Tshs</item>
+        <item>Wimbi (Millet)__70,000 Tshs</item>
+        <item>Mtama (Sorghum)__74,000 Tshs</item>
+        <item>Muhogo (Cassava)__50,000 Tshs</item>
+        <item>Viazi Vitamu (Sweet Potato)__85,000 Tshs</item>
+        <item>Maharagwe (Beans)__200,000 Tshs</item>
+        <item>Njegere (Chicken Pea)__250,000 Tshs</item>
     </string-array>
+    
+    <!-- Content Descriptions -->
+    <string name="cd_app_logo">UkulimaIQ Logo</string>
+    <string name="cd_menu_icon">Menu Icon</string>
+    <string name="cd_video_thumbnail">Video Thumbnail</string>
 
 </resources>
