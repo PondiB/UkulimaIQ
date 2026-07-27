@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.UkulimaIQ" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/seed</item>
+        <item name="colorPrimaryDark">@color/seed_dark</item>
+        <item name="colorPrimaryContainer">@color/seed_container</item>
+        <item name="colorSecondary">@color/harvest</item>
+        <item name="colorSecondaryContainer">@color/harvest</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorOnSecondary">@color/on_surface</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="android:statusBarColor">@color/seed_dark</item>
+        <item name="android:navigationBarColor">@color/surface</item>
+        <item name="android:windowBackground">@color/surface</item>
+        <item name="materialButtonStyle">@style/Widget.UkulimaIQ.Button</item>
+    </style>
+
+    <style name="Theme.UkulimaIQ.Splash" parent="Theme.UkulimaIQ">
+        <item name="android:statusBarColor">@color/seed</item>
+    </style>
+
+    <style name="Widget.UkulimaIQ.Button" parent="Widget.Material3.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="Widget.UkulimaIQ.Button.Menu" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:minHeight">64dp</item>
+        <item name="cornerRadius">16dp</item>
+    </style>
+
+    <!-- Keep old name so any leftover refs compile during migration -->
+    <style name="AppTheme" parent="Theme.UkulimaIQ" />
+    <style name="AppTheme.NoActionBar" parent="Theme.UkulimaIQ" />
+</resources>

@@ -2,7 +2,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Required permissions for internet access and network state -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
@@ -10,51 +9,52 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/africarising1"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true"
-        tools:targetApi="31">
-        
-        <!-- Main Activity - Launcher -->
-        <activity 
-            android:name=".MainActivity"
-            android:exported="true">
+        android:theme="@style/Theme.UkulimaIQ"
+        android:usesCleartextTraffic="false"
+        tools:targetApi="35">
+
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.UkulimaIQ.Splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <!-- Menu Selection Activity -->
-        <activity 
-            android:name=".MenuSelection"
-            android:exported="false"
-            android:parentActivityName=".MainActivity" />
-        
-        <!-- Agronomy Activity -->
+
         <activity
-            android:name=".AgronomyActivity"
+            android:name=".ui.menu.MenuActivity"
+            android:exported="false"
+            android:parentActivityName=".ui.main.MainActivity" />
+
+        <activity
+            android:name=".ui.agronomy.AgronomyActivity"
             android:exported="false"
             android:label="@string/title_activity_agronomy"
-            android:parentActivityName=".MenuSelection"
-            android:theme="@style/AppTheme.NoActionBar" />
-        
-        <!-- Climate/Weather Activity -->
-        <activity 
-            android:name=".ClimateActivity"
+            android:parentActivityName=".ui.menu.MenuActivity" />
+
+        <activity
+            android:name=".ui.climate.ClimateActivity"
             android:exported="false"
             android:label="@string/title_activity_climate"
-            android:parentActivityName=".MenuSelection" />
-        
-        <!-- Market Price Activity -->
-        <activity 
-            android:name=".PriceActivity"
+            android:parentActivityName=".ui.menu.MenuActivity" />
+
+        <activity
+            android:name=".ui.prices.PriceActivity"
             android:exported="false"
             android:label="@string/title_activity_price"
-            android:parentActivityName=".MenuSelection" />
+            android:parentActivityName=".ui.menu.MenuActivity" />
+
+        <activity
+            android:name=".ui.map.MapActivity"
+            android:exported="false"
+            android:label="@string/title_activity_map"
+            android:parentActivityName=".ui.menu.MenuActivity" />
     </application>
 
 </manifest>

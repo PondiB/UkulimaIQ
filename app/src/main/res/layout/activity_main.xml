@@ -1,50 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="56dp"
-    android:paddingLeft="24dp"
-    android:paddingRight="24dp"
-    android:background="@color/background">
+    android:background="@color/sky"
+    android:padding="@dimen/screen_padding"
+    tools:context=".ui.main.MainActivity">
 
+    <ImageView
+        android:id="@+id/imagePartnerTop"
+        android:layout_width="140dp"
+        android:layout_height="@dimen/logo_height"
+        android:contentDescription="@string/cd_partner_usaid"
+        android:scaleType="fitCenter"
+        android:src="@drawable/usaid1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <android.support.v7.widget.AppCompatImageView
-        android:id="@+id/ImageView"
-        android:layout_width="136dp"
-        android:layout_height="67dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="6dp"
-        android:layout_marginTop="6dp"
-        android:src="@drawable/usaid1" />
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/cd_app_logo"
+        android:scaleType="fitCenter"
+        android:src="@drawable/africarising1"
+        app:layout_constraintBottom_toTopOf="@id/textTagline"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imagePartnerTop"
+        app:layout_constraintVertical_chainStyle="packed" />
 
-    <android.support.v7.widget.AppCompatImageView
-        android:id="@+id/ImageView2"
-        android:layout_width="138dp"
-        android:layout_height="176dp"
-        android:layout_gravity="center_horizontal"
-        android:src="@drawable/africarising1" />
-
-
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/textTagline"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="36dp"
-        android:layout_marginBottom="36dp"
-        android:background="@color/grey"
-        android:text="BONYEZA"
-        android:textSize="36dp"
-        android:textStyle="bold"/>
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/app_tagline"
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:textColor="@color/soil"
+        app:layout_constraintBottom_toTopOf="@id/buttonGetStarted"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageLogo" />
 
-    <android.support.v7.widget.AppCompatImageView
-        android:id="@+id/ImageView3"
-        android:layout_width="95dp"
-        android:layout_height="46dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginBottom="6dp"
-        android:layout_marginTop="6dp"
-        android:src="@drawable/logociat" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonGetStarted"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="24dp"
+        android:minHeight="56dp"
+        android:text="@string/btn_get_started"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/imagePartnerBottom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textTagline" />
 
+    <ImageView
+        android:id="@+id/imagePartnerBottom"
+        android:layout_width="100dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/cd_partner_ciat"
+        android:scaleType="fitCenter"
+        android:src="@drawable/logociat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

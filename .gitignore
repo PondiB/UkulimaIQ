@@ -34,26 +34,15 @@ proguard/
 # Android Studio captures folder
 captures/
 
-# IntelliJ
+# IntelliJ / Android Studio
 *.iml
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/gradle.xml
-.idea/assetWizardSettings.xml
-.idea/dictionaries
-.idea/libraries
-.idea/jarRepositories.xml
-.idea/caches
-.idea/modules.xml
-.idea/.name
-.idea/compiler.xml
-.idea/misc.xml
-.idea/deploymentTargetDropDown.xml
-.idea/render.experimental.xml
+.idea/
 
-# Keystore files
+# Keystore files and local signing config
 *.jks
 *.keystore
+keystore.properties
+app/release/
 
 # External native build folder generated in Android Studio 2.2 and later
 .externalNativeBuild

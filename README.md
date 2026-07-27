@@ -1,125 +1,113 @@
 # UkulimaIQ
 
-An Android app for Tanzania farmers to notify them on Agronomy, Climate and Markets.
+[![Kotlin](https://img.shields.io/badge/Kotlin-2.0-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![Platform](https://img.shields.io/badge/Platform-Android-3DDC84?logo=android&logoColor=white)](https://developer.android.com/)
+[![API](https://img.shields.io/badge/API-21%2B-brightgreen)](https://developer.android.com/studio/releases/platforms)
+[![Target SDK](https://img.shields.io/badge/Target%20SDK-35-green)](https://developer.android.com/google/play/requirements/target-sdk)
+[![Material 3](https://img.shields.io/badge/Material-3-757575?logo=materialdesign&logoColor=white)](https://m3.material.io/)
+[![Leaflet](https://img.shields.io/badge/Map-Leaflet-199900?logo=leaflet&logoColor=white)](https://leafletjs.com/)
+[![Version](https://img.shields.io/badge/Version-1.1.0-1B5E20)](CHANGELOG.md)
+[![Tests](https://img.shields.io/badge/Unit%20tests-JUnit%204-blue)](#tests)
+[![GitHub](https://img.shields.io/badge/GitHub-PondiB%2FUkulimaIQ-181717?logo=github)](https://github.com/PondiB/UkulimaIQ)
 
-## Overview
+Farming intelligence for farmers in the **Mwanza Region of Tanzania** — agronomy guidance, weather, market prices, and a map of agricultural markets.
 
-**UkulimaIQ** (Farming Intelligence Quotient) is an Android application designed specifically for farmers in the Mwanza Region of Tanzania. The app provides essential agricultural information and resources to help farmers make informed decisions about their farming practices.
-
-## Features
-
-The application focuses on 4 key areas:
-
-1. **Agronomy** (Swahili: "Maelezo ya Ukulima")
-   - Short educational videos on land preparation, planting techniques, and sustainable land management practices
-   - Best practices for crop rotation, pest management, and soil health
-   - Water management and efficient irrigation techniques
-
-2. **Climate** (Swahili: "Hali ya Hewa")
-   - Real-time weather information
-   - Weather forecasts to help plan farming activities
-   - Integrated with modern weather services for accurate data
-
-3. **Market Price** (Swahili: "Bei ya Soko")
-   - Up-to-date market prices for various agricultural products
-   - Price information for maize, paddy rice, millet, sorghum, cassava, sweet potato, beans, and chickpea
-   - Helps farmers make informed decisions about when to sell their produce
-
-4. **Community Map** (Swahili: "Ramani ya Jumuiya") *(Planned)*
-   - Interactive map showing crop distribution across regions
-   - Visualization of where various crops dominate
-
-## Technical Details
-
-### Technology Stack
-
-- **Language**: Kotlin (fully migrated from Java)
-- **Minimum SDK**: API 21 (Android 5.0 Lollipop)
-- **Target SDK**: API 34 (Android 14)
-- **Build System**: Gradle 8.2
-- **Architecture**: Modern Android development with AndroidX libraries
-
-### Key Dependencies
-
-- AndroidX Core and AppCompat
-- Material Design Components
-- RecyclerView and CardView for efficient list displays
-- WebKit for web content integration
-- Kotlin Standard Library
-
-### Recent Updates (v3.0)
-
-- ✅ Complete migration from Java to Kotlin
-- ✅ Updated to modern AndroidX libraries
-- ✅ Replaced outdated weather service with OpenWeatherMap
-- ✅ Improved code quality and performance
-- ✅ Enhanced UI/UX with Material Design
-- ✅ Updated build tools and dependencies
-- ✅ Added proper ViewHolder pattern for better list performance
-- ✅ Improved WebView configuration for better content loading
-
-## Building the App
-
-### Prerequisites
-
-- Android Studio Arctic Fox or later
-- JDK 17 or later
-- Android SDK with API 34
-
-### Build Instructions
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/PondiB/UkulimaIQ.git
-   ```
-
-2. Open the project in Android Studio
-
-3. Sync Gradle files
-
-4. Build and run the app on an emulator or physical device
-
-## Project Structure
-
-```
-app/
-├── src/
-│   ├── main/
-│   │   ├── kotlin/          # Kotlin source files
-│   │   ├── res/             # Resources (layouts, drawables, etc.)
-│   │   └── AndroidManifest.xml
-│   ├── test/                # Unit tests
-│   └── androidTest/         # Instrumented tests
-└── build.gradle             # App-level build configuration
-```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
-
-## License
-
-This project is open source and available for educational and agricultural development purposes.
+<p align="center">
+  <img src="docs/screenshots/01-splash.png" width="180" alt="Splash screen" />
+  <img src="docs/screenshots/02-menu.png" width="180" alt="Main menu" />
+  <img src="docs/screenshots/03-agronomy.png" width="180" alt="Agronomy videos" />
+</p>
+<p align="center">
+  <img src="docs/screenshots/06-climate.png" width="180" alt="Weather and climate" />
+  <img src="docs/screenshots/04-prices.png" width="180" alt="Market prices" />
+  <img src="docs/screenshots/05-map.png" width="180" alt="Market map" />
+</p>
 
 ## Screenshots
 
-![ukulima](https://user-images.githubusercontent.com/16879290/38459751-7c8cb5e8-3ab6-11e8-8bb7-6216514ad2b0.PNG)
+| Splash | Menu | Agronomy |
+|:---:|:---:|:---:|
+| ![Splash](docs/screenshots/01-splash.png) | ![Menu](docs/screenshots/02-menu.png) | ![Agronomy](docs/screenshots/03-agronomy.png) |
 
-*Fig. 1: UkulimaIQ Android Application User Interface*
+| Climate | Market prices | Market map |
+|:---:|:---:|:---:|
+| ![Climate](docs/screenshots/06-climate.png) | ![Prices](docs/screenshots/04-prices.png) | ![Map](docs/screenshots/05-map.png) |
 
-## Future Enhancements
+## Features
 
-- Integration with real-time market price APIs
-- Implementation of the Community Map feature
-- Offline mode for areas with limited connectivity
-- Push notifications for weather alerts and price changes
-- Multi-language support (English and Swahili)
-- User authentication and personalized content
+1. **Agronomy** (`Maelezo ya Ukulima`) — educational farming videos (opens in YouTube)
+2. **Climate** (`Hali ya Hewa`) — Mwanza weather forecast (Yr.no)
+3. **Market prices** (`Bei ya Soko`) — reference crop prices for planning
+4. **Market map** (`Ramani ya Masoko`) — Leaflet map of agricultural markets across Tanzania
 
-## Contact
+## Stack (v1.1.0)
 
-For questions or suggestions, please open an issue on GitHub.
+| Area | Choice |
+|------|--------|
+| Language | Kotlin 2.0 |
+| UI | Material 3 + ViewBinding |
+| Architecture | Activities · ViewModels · repositories |
+| Map | Leaflet + OpenStreetMap (WebView assets) |
+| Build | AGP 8.7 · Gradle version catalog |
+| SDK | min 21 · compile/target 35 |
 
----
+## Project layout
 
-**Made with ❤️ for Tanzanian farmers**
+```
+app/src/main/
+  assets/map/     # Leaflet market map (index.html, markets.js)
+  kotlin/.../
+    domain/       # AgronomyVideo, MarketPrice
+    data/         # repositories
+    ui/           # main, menu, agronomy, climate, prices, map
+  res/values-sw/  # Swahili strings
+```
+
+## Build
+
+**Prerequisites:** Android Studio Hedgehog+, JDK 17, Android SDK 35
+
+```bash
+git clone https://github.com/PondiB/UkulimaIQ.git
+cd UkulimaIQ
+./gradlew assembleDebug
+```
+
+Open the project in Android Studio, sync Gradle, then run on a device or emulator.
+
+## Tests
+
+Unit tests cover domain models, repository mapping, and WebView host allowlists (map + weather).
+
+```bash
+./gradlew testDebugUnitTest
+```
+
+| Area | What’s covered |
+|------|----------------|
+| `AgronomyVideo` / `MarketPrice` | URL helpers, data class behavior |
+| `AgronomyRepository` / `MarketPriceRepository` | Array → model mapping, missing metadata |
+| `MapRepository` / `WeatherRepository` | Allowed hosts, Mwanza forecast URL |
+
+### Release signing
+
+Do **not** commit keystores. Create a local `keystore.properties` (gitignored) if you need release builds:
+
+```properties
+storeFile=../path/to/your.keystore
+storePassword=...
+keyAlias=...
+keyPassword=...
+```
+
+## Localization
+
+Default strings are English; Swahili overrides live in `res/values-sw/`.
+
+## Partners
+
+Built with support context from USAID / CIAT branding assets included in the app.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for v1.1.0 modernization notes.
