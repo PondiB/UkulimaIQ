@@ -1,43 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Ukulima IQ</string>
-    <string name="app_description">Farming Intelligence for Tanzanian Farmers</string>
-    
-    <!-- Activity Titles -->
-    <string name="title_activity_map">Community Map</string>
+    <string name="app_description">Farming intelligence for Tanzanian farmers</string>
+    <string name="app_tagline">Mwanza Region · Agronomy · Climate · Markets</string>
+
     <string name="title_activity_agronomy">Agronomy</string>
     <string name="title_activity_climate">Weather &amp; Climate</string>
     <string name="title_activity_price">Market Prices</string>
-    
-    <!-- Menu Items -->
+    <string name="title_activity_map">Market Map</string>
+
     <string name="menu_agronomy">Agronomy\n(Maelezo ya Ukulima)</string>
     <string name="menu_climate">Climate\n(Hali ya Hewa)</string>
     <string name="menu_market_price">Market Price\n(Bei ya Soko)</string>
-    <string name="menu_community_map">Community Map\n(Ramani ya Jumuiya)</string>
-    
-    <!-- Buttons -->
-    <string name="btn_get_started">Get Started</string>
-    <string name="btn_back">Back</string>
-    
-    <!-- Messages -->
+    <string name="menu_market_map">Market Map\n(Ramani ya Masoko)</string>
+    <string name="menu_title">Choose a topic</string>
+
+    <string name="btn_get_started">Get started</string>
+    <string name="btn_watch_video">Watch video</string>
+    <string name="btn_retry">Retry</string>
+
     <string name="loading">Loading…</string>
     <string name="error_network">Network error. Please check your connection.</string>
     <string name="error_loading">Error loading content. Please try again.</string>
-    
-    <!-- Market Prices -->
-    <string-array name="list_items">
-        <item>Mahindi (Maize)__60,000 Tshs</item>
-        <item>Mchele (Paddy Rice)__180,000 Tshs</item>
-        <item>Wimbi (Millet)__70,000 Tshs</item>
-        <item>Mtama (Sorghum)__74,000 Tshs</item>
-        <item>Muhogo (Cassava)__50,000 Tshs</item>
-        <item>Viazi Vitamu (Sweet Potato)__85,000 Tshs</item>
-        <item>Maharagwe (Beans)__200,000 Tshs</item>
-        <item>Njegere (Chicken Pea)__250,000 Tshs</item>
-    </string-array>
-    
-    <!-- Content Descriptions -->
-    <string name="cd_app_logo">UkulimaIQ Logo</string>
-    <string name="cd_menu_icon">Menu Icon</string>
-    <string name="cd_video_thumbnail">Video Thumbnail</string>
+    <string name="prices_disclaimer">Reference prices for planning. Confirm locally before selling.</string>
+    <string name="header_crop">Crop</string>
+    <string name="header_price">Price</string>
 
+    <string name="cd_app_logo">UkulimaIQ logo</string>
+    <string name="cd_partner_usaid">USAID partner logo</string>
+    <string name="cd_partner_ciat">CIAT partner logo</string>
+    <string name="cd_video_thumbnail">Video thumbnail</string>
+    <string name="cd_menu_background">Farm field background</string>
+
+    <string-array name="agronomy_video_ids">
+        <item>DOs0roX8frA</item>
+        <item>g0PvBq3zFh4</item>
+        <item>AbK1p4zIkwc</item>
+        <item>CohBlpCAqiU</item>
+        <item>xB2zcGkDjTs</item>
+    </string-array>
+
+    <string-array name="agronomy_video_titles">
+        <item>Farm plan, soil testing &amp; compost</item>
+        <item>Soil health, nutrition &amp; records</item>
+        <item>Soil testing &amp; farm practices</item>
+        <item>Drip irrigation basics</item>
+        <item>Conservation agriculture (Kilimo Hifadhi)</item>
+    </string-array>
+
+    <string-array name="agronomy_video_descriptions">
+        <item>Shamba Shape Up — planning, soil tests, compost and seed selection.</item>
+        <item>Keep soils healthy, manage nutrition, and track farm records.</item>
+        <item>Practical soil testing and day-to-day farm improvement tips.</item>
+        <item>Install and use drip irrigation to save water and raise yields.</item>
+        <item>Swahili documentary on conservation agriculture practices.</item>
+    </string-array>
+
+    <string-array name="market_crop_names">
+        <item>Mahindi (Maize)</item>
+        <item>Mchele (Paddy Rice)</item>
+        <item>Wimbi (Millet)</item>
+        <item>Mtama (Sorghum)</item>
+        <item>Muhogo (Cassava)</item>
+        <item>Viazi Vitamu (Sweet Potato)</item>
+        <item>Maharagwe (Beans)</item>
+        <item>Njegere (Chickpea)</item>
+    </string-array>
+
+    <string-array name="market_crop_prices">
+        <item>60,000 TZS</item>
+        <item>180,000 TZS</item>
+        <item>70,000 TZS</item>
+        <item>74,000 TZS</item>
+        <item>50,000 TZS</item>
+        <item>85,000 TZS</item>
+        <item>200,000 TZS</item>
+        <item>250,000 TZS</item>
+    </string-array>
 </resources>

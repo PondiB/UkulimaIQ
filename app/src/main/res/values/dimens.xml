@@ -1,3 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="screen_padding">24dp</dimen>
+    <dimen name="screen_padding_small">16dp</dimen>
+    <dimen name="menu_button_spacing">12dp</dimen>
+    <dimen name="card_radius">16dp</dimen>
+    <dimen name="card_elevation">2dp</dimen>
+    <dimen name="logo_height">56dp</dimen>
 </resources>

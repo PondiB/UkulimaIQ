@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ukulima IQ</string>
+    <string name="app_description">Ujuzi wa kilimo kwa wakulima wa Tanzania</string>
+    <string name="app_tagline">Mkoa wa Mwanza · Ukulima · Hewa · Masoko</string>
+
+    <string name="title_activity_agronomy">Maelezo ya Ukulima</string>
+    <string name="title_activity_climate">Hali ya Hewa</string>
+    <string name="title_activity_price">Bei ya Soko</string>
+    <string name="title_activity_map">Ramani ya Masoko</string>
+
+    <string name="menu_agronomy">Maelezo ya Ukulima</string>
+    <string name="menu_climate">Hali ya Hewa</string>
+    <string name="menu_market_price">Bei ya Soko</string>
+    <string name="menu_market_map">Ramani ya Masoko</string>
+    <string name="menu_title">Chagua mada</string>
+
+    <string name="btn_get_started">Bonyeza kuanza</string>
+    <string name="btn_watch_video">Tazama video</string>
+    <string name="btn_retry">Jaribu tena</string>
+
+    <string name="loading">Inapakia…</string>
+    <string name="error_network">Hitilafu ya mtandao. Angalia muunganisho wako.</string>
+    <string name="error_loading">Imeshindwa kupakia. Jaribu tena.</string>
+    <string name="prices_disclaimer">Bei za rejea kwa mipango. Thibitisha sokoni kabla ya kuuza.</string>
+    <string name="header_crop">Bidhaa</string>
+    <string name="header_price">Bei</string>
+
+    <string-array name="agronomy_video_titles">
+        <item>Mpango wa shamba, udongo na mbolea</item>
+        <item>Afya ya udongo, lishe na kumbukumbu</item>
+        <item>Upimaji wa udongo na mbinu za shamba</item>
+        <item>Umwagiliaji wa matone</item>
+        <item>Kilimo hifadhi</item>
+    </string-array>
+
+    <string-array name="agronomy_video_descriptions">
+        <item>Shamba Shape Up — kupanga shamba, kupima udongo, mbolea na mbegu.</item>
+        <item>Dumisha udongo, lishe ya mimea, na kumbukumbu za shamba.</item>
+        <item>Vidokezo vya kupima udongo na kuboresha shamba kila siku.</item>
+        <item>Jinsi ya kutumia umwagiliaji wa matone kuokoa maji.</item>
+        <item>Filamu ya Kiswahili kuhusu kilimo hifadhi.</item>
+    </string-array>
+</resources>

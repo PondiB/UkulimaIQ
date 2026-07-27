@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingTop="56dp"
-    android:paddingLeft="24dp"
-    android:paddingRight="24dp"
-    android:background="@drawable/organic"
-    android:backgroundTintMode="src_in"
-    tools:context="com.pondipb.pondibrian.ukulimaiq.MenuSelection">
+    android:background="@color/surface"
+    tools:context=".ui.agronomy.AgronomyActivity">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-   <android.support.v7.widget.RecyclerView
-       android:id="@+id/recyclerView"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
-</LinearLayout>
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/seed"
+            app:navigationIconTint="@color/white"
+            app:title="@string/title_activity_agronomy"
+            app:titleTextColor="@color/white" />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:padding="@dimen/screen_padding_small"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:listitem="@layout/item_video" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

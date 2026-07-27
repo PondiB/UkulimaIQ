@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
-    <color name="colorAccent">#80787a</color>
-    <color name="background">#f7fcfb</color>
-    <color name="grey">#a9b2bc</color>
-    <color name="black">#1c1c1d</color>
+    <!-- Agriculture-focused palette -->
+    <color name="seed">#1B5E20</color>
+    <color name="seed_dark">#0D3B12</color>
+    <color name="seed_container">#C8E6C9</color>
+    <color name="harvest">#F9A825</color>
+    <color name="harvest_dark">#C17900</color>
+    <color name="soil">#5D4037</color>
+    <color name="sky">#E8F5E9</color>
+    <color name="surface">#FAFDF8</color>
+    <color name="on_surface">#1A1C19</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="outline">#C4C8C0</color>
+    <color name="row_alt">#F1F8E9</color>
+    <color name="header_bg">#2E7D32</color>
+    <color name="black">#1C1C1D</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Legacy aliases -->
+    <color name="colorPrimary">@color/seed</color>
+    <color name="colorPrimaryDark">@color/seed_dark</color>
+    <color name="colorAccent">@color/harvest</color>
+    <color name="background">@color/surface</color>
+    <color name="grey">#A9B2BC</color>
 </resources>
